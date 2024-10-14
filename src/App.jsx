@@ -15,11 +15,7 @@ const App = () => {
   return (
     <div className=''>
       <Navbar/>
-      <div className='flex gap-7 justify-between'>
-      <Cards />
-      <Cards1 />
-      <Cards ></Cards>
-      </div>
+      <Cards/>
       <PhotoInfoLayout/>
       {/* <Carousel/> */}
       <CarouselDefault/>
